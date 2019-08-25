@@ -1,0 +1,24 @@
+{
+	"name": "statelessstudio-js-utils",
+	"version": "0.0.1",
+	"description": "Stateless Studio's JavaScript Utility Library",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/StatelessStudio/js-utils.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/StatelessStudio/js-utils/issues"
+	},
+	"homepage": "https://github.com/StatelessStudio/js-utils#readme",
+	"dependencies": {}
+}
