@@ -21,8 +21,10 @@ function replaceTextInDirectory(dir, regex, newstr) {
 					const output = data.toString().replace(regex, newstr);
 
 					// Save file
-					fs.writeFile(file, output, (err) => {
-						return reject(error);
+					fs.writeFile(file, output, (writeError) => {
+						if (writeError) {
+							return reject(writeError);
+						}
 					});
 				}
 			});
